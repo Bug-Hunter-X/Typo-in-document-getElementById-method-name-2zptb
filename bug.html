@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrectly referencing a non-existent element
+    const myElement = document.getElementByIdx('myDiv'); //Typo in method name
+    myElement.innerHTML = 'This text should be inside the div.';
+  </script>
+</body>
+</html>
