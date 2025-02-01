@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked error in HTML: a simple typo in the `document.getElementById` method name.  The bug is subtle, and linters may not catch it, leading to unexpected runtime failures. The solution highlights the importance of careful attention to detail and using your browser's developer tools for debugging.
